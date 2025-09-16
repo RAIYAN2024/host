@@ -5,7 +5,7 @@ build({
   bundle: true,
   platform: "node",
   target: ["node20"],
-  outdir: "dist/index.js",
+  outdir: "dist",
   format: "esm",
   alias: {
     "@": "./src",
