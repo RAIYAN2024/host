@@ -1,7 +1,7 @@
 import { build } from "esbuild";
 import { nodeExternalsPlugin } from "esbuild-node-externals";
 build({
-  entryPoints: ["src/index.ts"],
+  entryPoints: ["src/api/index.ts"],
   bundle: true,
   platform: "node",
   target: ["node20"],
