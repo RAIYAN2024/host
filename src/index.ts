@@ -3,6 +3,6 @@ import serverless from "serverless-http";
 const app = express();
 app.use(express.json());
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.json({ ip: req.ip, success: true, message: "Hello World" });
 });
 export const handler = serverless(app);
