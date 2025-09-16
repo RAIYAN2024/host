@@ -6,6 +6,9 @@
   "author": "MD RAIYAN SIDDIK",
   "type": "module",
   "main": "index.js",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "build": "node build.js",
     "dev": "tsx src/index.ts",
