@@ -1,0 +1,26 @@
+{
+  "name": "host",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "MD RAIYAN SIDDIK",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.0",
+    "esbuild": "0.25.9",
+    "esbuild-node-externals": "^1.18.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "serverless-http": "^4.0.0",
+    "tsx": "^4.20.5"
+  }
+}
